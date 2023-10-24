@@ -366,7 +366,7 @@ class ATM extends JFrame {
 		}
 	 }
 	}
-class task4{
+class Task04{
 	public static void main (String[] args){
 		new ATM();	
 	}
