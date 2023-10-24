@@ -16,7 +16,7 @@ You can further enhance the project by adding features such as:
 */
 import java.io.*;  
    
-public class prg6   
+public class task02   
 {  
     public static void main(String[] args) throws Exception {
         BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
