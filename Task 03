@@ -111,7 +111,7 @@ public class Task03 {
                     String grade = br.readLine();
                     Student newStudent = new Student(name, rollNumber, grade);
                     sms.addStudent(newStudent);
-										System.out.println("\n");
+		    						System.out.println("\n");
                     break;
                 case 2:
                     System.out.print("Enter the name or roll number of the student to remove: ");
@@ -121,7 +121,7 @@ public class Task03 {
                         for (Student student : studentsToRemove) {
                             sms.removeStudent(student);
                             System.out.println("Removed: " + student);
-														System.out.println("\n");
+			    									System.out.println("\n");
                         }
                     } else {
                         System.out.println("Student not found.");
@@ -135,7 +135,7 @@ public class Task03 {
                         System.out.println("Search Results:");
                         for (Student student : searchResults) {
                             System.out.println(student);
-														System.out.println("\n");
+			    									System.out.println("\n");
                         }
                     } else {
                         System.out.println("No matching students found.");
